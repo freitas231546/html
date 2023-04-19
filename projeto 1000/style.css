@@ -1,0 +1,165 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf);
+}
+
+:root{
+    --cor-1:#034159;
+    --cor-2:#025951;
+    --cor-3:#02735E;
+    --cor-4:#038C3E;
+    --cor-5:#0CF25D;
+
+    --fonte-1:arial;
+    --fonte-2:idroid;
+    --fonte-3:cursive;
+}
+
+*{
+margin:0px;
+padding: 0px;
+
+}
+
+header{
+    background-image: linear-gradient(to bottom,#038C3E,#025951) ;
+    min-height: 150px;
+    text-align: center;
+    font-family: 'idroid';
+    padding-top: 40px;
+    color: white;
+    min-width: auto;
+  
+    
+}
+header h1{
+font-size: 3em;
+margin-bottom: 30px;
+text-shadow: 2px 2px 0px black;
+
+}
+
+nav{
+background-color: #025951;
+padding: 10px;
+box-shadow: 0px 7px 6px black;
+
+}
+
+
+nav a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+padding: 10px;
+
+}
+nav > a:hover{
+    background-color:#038C3E ;
+    color: #02735E;
+    border-radius: 5px;
+}
+
+body{
+background-color:#0CF25D ;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+font-family: 'idroid';
+background-image: linear-gradient(to right,#038c3ebe,#0cf25d2d)
+}
+
+p{
+margin:15px 0px
+
+}
+
+div.video{
+background-color:#034159 ;
+padding: 30px;
+margin:0px -20px 30px; 
+position: relative;
+padding-bottom: 58%;
+}
+
+div.video > iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+
+main{
+background-color: white;
+min-width: 300px;
+max-width: 800px;
+margin: auto;
+padding: 20px;
+box-shadow: 0px 0px 10px black;
+margin-bottom: 30px;
+}
+
+main img{
+
+width: 100%;
+
+
+}
+main p{
+font-size: 1em;
+
+}
+
+main strong{
+color: #034159;
+padding:2px 6px;
+font-weight: bold;
+}
+
+main a{
+background-color:#03415998;
+color:white;
+text-decoration: none;
+}
+
+main a:hover{
+text-decoration: underline;
+
+}
+
+aside{
+background-color: #02735e94;
+border-radius: 5px;
+padding: 10px;
+}
+
+aside ul{
+list-style-position: inside;
+columns: 2;
+
+}
+
+aside > h3{
+
+background-color:#0b7430 ;
+padding: 5px;
+color: white;
+margin: -10px -10px 0 -10px;
+border-radius: 5px 5px 0 0  ;
+}
+
+footer{
+background-color: #034159;
+text-align: center;
+color: white;
+padding: 5px;
+}
+
+.pequena{
+display: block;
+margin: auto;
+max-width: 350px;
+}

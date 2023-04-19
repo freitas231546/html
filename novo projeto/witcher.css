@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+
+
+
+.imgwitcher{
+position: relative;
+right: -1000px;
+border-radius: 0px 0px 0px 130px;
+top:-650px;
+
+}
+
+header > h1{
+position: relative;
+margin-left: 380px;
+bottom: -80px;
+font-family: 'Oswald', sans-serif;
+}
+
+header > p{
+    font-family: 'Oswald', sans-serif;
+width: 800px;
+position: relative;
+right: -150px;
+bottom: -100px;
+font-size: x-large;
+}
+
+body{
+    background: linear-gradient(to bottom, #000000, #663399);
+    color:#FFFFFF ;
+}
