@@ -84,7 +84,8 @@ font-size: x-large;/*deixa a fonte larga*/
 
 
 body{
-   ip df rea asscatri freitas acari 
+  background: linear-gradient(to bottom, #000000, #663399);
+  color: white;
 font-family: 'montserrat';
 padding: 0;
 margin: 0;
